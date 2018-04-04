@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:k="http://schemas.microsoft.com/kinect/2014"
+        Title="MainWindow" WindowStyle = "None" WindowState="Maximized" Height="1080" Width="2830">
+
+
+    <Window.Resources>
+        <Image x:Key="Play" Source="Assets/iamin.png"  />
+        <Image x:Key="Stop" Source="Assets/noway.png" />
+    </Window.Resources>
+
+    <Grid Height="1080" Width="2830">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/risktaker_background.png"/>
+        </Grid.Background>
+        <DockPanel>
+            <Frame x:Name="_NavigationFrame" NavigationUIVisibility="Hidden" />
+        </DockPanel>
+
+        <k:KinectRegion x:Name="kinectRegion">
+            <Grid>
+
+
+                <Button Name="startover" MouseEnter="startover_MouseEnter" Click="Button_Click" Margin="310,318,0,495" BorderThickness="0" HorizontalAlignment="Left" Width="433" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/startover.png"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </k:KinectRegion>
+
+    </Grid>
+</Window>
+
+ 
