@@ -60,10 +60,46 @@
     <Compile Include="CompanyFounderProfiles.xaml.cs">
       <DependentUpon>CompanyFounderProfiles.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Idealist_level2.xaml.cs">
+      <DependentUpon>Idealist_level2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Idealist_level3.xaml.cs">
+      <DependentUpon>Idealist_level3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Idealist_level4.xaml.cs">
+      <DependentUpon>Idealist_level4.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Start_Screen.xaml.cs">
       <DependentUpon>Start_Screen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Idealist_level1.xaml.cs">
+      <DependentUpon>Idealist_level1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Technologist_level1.xaml.cs">
+      <DependentUpon>Technologist_level1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Technologist_level2.xaml.cs">
+      <DependentUpon>Technologist_level2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Technologist_level3.xaml.cs">
+      <DependentUpon>Technologist_level3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Technologist_level4.xaml.cs">
+      <DependentUpon>Technologist_level4.xaml</DependentUpon>
+    </Compile>
     <Page Include="CompanyFounderProfiles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Idealist_level2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Idealist_level3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Idealist_level4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -96,6 +132,26 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Start_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Idealist_level1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Technologist_level1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Technologist_level2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Technologist_level3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Technologist_level4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -215,6 +271,16 @@
     <Resource Include="Company_Founder_Assets\The Idealist.png" />
     <Resource Include="Company_Founder_Assets\The Risk Taker.png" />
     <Resource Include="Company_Founder_Assets\The Technologist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Idealist_Assets\idealist_startover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Idealist_Assets\idealist_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Technologist_Assets\technologist_bg.png" />
+    <Resource Include="Technologist_Assets\technologist_startover.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

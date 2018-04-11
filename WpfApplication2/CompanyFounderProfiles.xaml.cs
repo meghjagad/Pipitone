@@ -34,13 +34,13 @@ namespace WpfApplication2
         private void Idealist_Click(object sender, RoutedEventArgs e)
         {
             //Load Pantherlab level 2 page
-            this.NavigationService.Navigate(new Uri("PantherLab_level1.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("Idealist_level1.xaml", UriKind.Relative));
         }
 
         private void Technologist_Click(object sender, RoutedEventArgs e)
         {
             //Load Pantherlab level 2 page
-            this.NavigationService.Navigate(new Uri("PantherLab_level1.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("Technologist_level1.xaml", UriKind.Relative));
         }
     }
 }
