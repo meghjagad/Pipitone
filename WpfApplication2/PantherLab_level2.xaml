@@ -16,7 +16,7 @@
         <k:KinectRegion x:Name="kinectRegion" >
             <Grid>
 
-                <Button  Style="{StaticResource ButtonStyle}" MouseEnter="accelerometer_MouseEnter" MouseLeave="accelerometer_MouseLeave" Name="accelerometer" Click="accelerometer_Click" Margin="993,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" >
+                <Button  Style="{StaticResource ButtonStyle}" MouseEnter="accelerometer_MouseEnter" MouseLeave="accelerometer_MouseLeave" Name="accelerometer" Click="accelerometer_Click" Margin="971,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" >
                     <Button.Background>
                         <ImageBrush ImageSource="Assets/accelerometer.png"/>
                     </Button.Background>
@@ -41,7 +41,7 @@
             </Grid>
         </k:KinectRegion>
 
-        <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="1371,155,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Bold" FontSize="100" Height="211" TextAlignment="Center"><Run Foreground="White" Text="Sweet!"/></TextBlock>
+        <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="1368.6,154.2,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Bold" FontSize="100" Height="211" TextAlignment="Center"><Run Foreground="White" Text="Sweet!"/></TextBlock>
         <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="1060,298,0,0" Stroke="Black" VerticalAlignment="Top" Width="971"/>
         <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="964,366,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="48" Height="225" TextAlignment="Center" Width="1175"><Run Foreground="White" Text="How should you use the accelerometer?"/></TextBlock>
         <Image Name="man" HorizontalAlignment="Left" Height="791" Margin="603,99,0,0" VerticalAlignment="Top" Width="286" Source="Assets/Man .png"/>

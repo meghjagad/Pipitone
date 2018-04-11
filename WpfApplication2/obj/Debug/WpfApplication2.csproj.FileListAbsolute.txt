@@ -24,3 +24,5 @@ C:\Users\PC\Documents\Visual Studio 2013\Projects\WpfApplication2\WpfApplication
 C:\Users\PC\Documents\Visual Studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\PantherLab_Level4.baml
 C:\Users\PC\Documents\Visual Studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\PantherLab_Level4.g.cs
 C:\Users\PC\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\App.baml
+C:\Users\PC\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\Start_Screen.baml
+C:\Users\PC\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\obj\Debug\Start_Screen.g.cs

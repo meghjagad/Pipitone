@@ -116,8 +116,15 @@ namespace WpfApplication2
             line1.FontFamily = new FontFamily("Gotham Bold");
 
             rect.Margin = new Thickness(1019,319,0,0);
+            line2.Text = "Sometimes passion is the best asset. ";
 
-            line2.Text = "Sometimes passion is the best asset. You in?";
+            //Make text italic
+            Run italic = new Run();
+            italic.Text = "You in?";
+            italic.FontFamily = new FontFamily("Fonts/#Gotham-MediumItalic");
+            italic.FontStyle = FontStyles.Italic;
+            line2.Inlines.Add(italic);
+
             line2.Foreground = Brushes.White;
             line2.Margin = new Thickness(983, 379, 0, 0);
             line2.FontSize = 48;
@@ -128,7 +135,7 @@ namespace WpfApplication2
         }
         private void startover_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("PantherLab_level1.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("Start_Screen.xaml", UriKind.Relative));
         }
 
 
@@ -227,6 +234,11 @@ namespace WpfApplication2
                 brush.ImageSource = bitmap;
                 button.Background = brush;
             }
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

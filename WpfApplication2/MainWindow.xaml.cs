@@ -55,7 +55,7 @@ namespace WpfApplication2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             startover.Visibility = Visibility.Collapsed;
-            _NavigationFrame.Navigate(new PantherLab_level1());
+            _NavigationFrame.Navigate(new Start_Screen());
          
         }
 

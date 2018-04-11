@@ -49,7 +49,17 @@ namespace WpfApplication2
 
 
             // To change the text, location and color
-            line1.Text = "An accelerometer measures how quickly something \n speeds up (or slows down), as well as its positioning.";
+            line1.Text = "An ";
+            //Make text bold.
+            Run bold = new Run();
+            bold.Text = "accelerometer ";
+            bold.FontFamily = new FontFamily("Fonts/#Gotham-Bold");
+            bold.FontWeight = FontWeights.Bold;
+            line1.Inlines.Add(bold);
+
+            Run nobold = new Run();
+            nobold.Text = "measures how quickly something \n speeds up (or slows down), as well as its positioning.";
+            line1.Inlines.Add(nobold);
             line1.Margin = new Thickness(925.8, 146.2, 0, 0);
             line1.FontSize = 48;
             line1.FontFamily = new FontFamily("Gotham Book");
@@ -115,7 +125,7 @@ namespace WpfApplication2
         }
         private void startover_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("PantherLab_level1.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("Start_Screen.xaml", UriKind.Relative));
         }
 
 

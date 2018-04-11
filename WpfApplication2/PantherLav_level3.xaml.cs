@@ -17,7 +17,7 @@ namespace WpfApplication2
 {
     /// <summary>
     /// Interaction logic for PantherLav_level3.xaml
-    /// </summary>
+    /// </summary> 
     public partial class PantherLav_level3 : Page
     {
         public bool get_Selfie_Clicked = false;
@@ -48,7 +48,19 @@ namespace WpfApplication2
             button.Background = brush;
 
             // To change the text, location and color
-            line1.Text = "Nice! You got 42 Likes on Instagram!";
+            line1.Text = "Nice! You got ";
+
+            //Make text bold.
+            Run bold = new Run();
+            bold.Text = "42 Likes ";
+            bold.FontFamily = new FontFamily("Fonts/#Gotham-Bold");
+            bold.FontWeight = FontWeights.Bold;
+            line1.Inlines.Add(bold);
+
+            Run nobold = new Run();
+            nobold.Text = "on Instagram!";
+            line1.Inlines.Add(nobold);
+
             line1.Foreground = Brushes.White; 
             line1.Margin = new Thickness(800, 178.2, 0, 0);
             line1.FontSize = 55;
@@ -106,7 +118,7 @@ namespace WpfApplication2
         }
         private void startover_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("PantherLab_level1.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("Start_Screen.xaml", UriKind.Relative));
         }
 
 

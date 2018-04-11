@@ -57,6 +57,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Start_Screen.xaml.cs">
+      <DependentUpon>Start_Screen.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -82,6 +85,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PantherLav_level3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Start_Screen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -116,6 +123,22 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Fonts\Gotham-Black.otf" />
+    <Resource Include="Fonts\Gotham-BlackItalic.otf" />
+    <Resource Include="Fonts\Gotham-Bold.otf" />
+    <Resource Include="Fonts\Gotham-BoldItalic.otf" />
+    <Resource Include="Fonts\Gotham-Book.otf" />
+    <Resource Include="Fonts\Gotham-BookItalic.otf" />
+    <Resource Include="Fonts\Gotham-ExtraLight.otf" />
+    <Resource Include="Fonts\Gotham-ExtraLightItalic.otf" />
+    <Resource Include="Fonts\Gotham-Light.otf" />
+    <Resource Include="Fonts\Gotham-LightItalic.otf" />
+    <Resource Include="Fonts\Gotham-Medium.otf" />
+    <Resource Include="Fonts\Gotham-MediumItalic.otf" />
+    <Resource Include="Fonts\Gotham-Thin.otf" />
+    <Resource Include="Fonts\Gotham-ThinItalic.otf" />
+    <Resource Include="Fonts\Gotham-Ultra.otf" />
+    <Resource Include="Fonts\Gotham-UltraItalic.otf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -173,6 +196,12 @@
     <Resource Include="Assets\iamin_scaled.png" />
     <Resource Include="Assets\sell_your_product_scaled.png" />
     <Resource Include="Assets\tellmemore_scaled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Start_Screen_Assets\Controls 1.png" />
+    <Resource Include="Start_Screen_Assets\Controls 2.png" />
+    <Resource Include="Start_Screen_Assets\Nav Icon.png" />
+    <Resource Include="Start_Screen_Assets\start_screen_bg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

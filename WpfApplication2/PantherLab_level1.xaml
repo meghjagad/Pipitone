@@ -14,31 +14,26 @@
         </Grid.Background>
 
         <k:KinectRegion  x:Name="kinectRegion">
-            <Grid Margin="-10,-10,10,10">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="246*"/>
-                    <ColumnDefinition Width="1169*"/>
-                </Grid.ColumnDefinitions>
+            <Grid>
 
-
-                <Button Style="{StaticResource ButtonStyle}" MouseEnter="noway_MouseEnter" MouseLeave="noway_MouseLeave" Name="noway"  Click="Button_Click" Margin="501,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                <Button Style="{StaticResource ButtonStyle}" MouseEnter="noway_MouseEnter" MouseLeave="noway_MouseLeave" Name="noway"  Click="Button_Click" Margin="971,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
                     <Button.Background>
                         <ImageBrush ImageSource="Assets/noway.png"/>
                     </Button.Background>
                 </Button>
-                <Button  Style="{StaticResource ButtonStyle}" MouseEnter="iamin_MouseEnter"  MouseLeave="iamin_MouseLeave" Name="iamin" Click="iamin_Click" Margin="905,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                <Button  Style="{StaticResource ButtonStyle}" MouseEnter="iamin_MouseEnter"  MouseLeave="iamin_MouseLeave" Name="iamin" Click="iamin_Click" Margin="1397,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
                     <Button.Background>
                         <ImageBrush ImageSource="Assets/iamin.png"/>
                     </Button.Background>
                 </Button>
-                <Button Style="{StaticResource ButtonStyle}" MouseEnter="tellmemore_MouseEnter" MouseLeave="tellmemore_MouseLeave" Name="tellmemore" Click="tellmemore_Click" Margin="1309,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                <Button Style="{StaticResource ButtonStyle}" MouseEnter="tellmemore_MouseEnter" MouseLeave="tellmemore_MouseLeave" Name="tellmemore" Click="tellmemore_Click" Margin="1801,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
                     <Button.Background>
                         <ImageBrush ImageSource="Assets/tellmemore.png"/>
                     </Button.Background>
                 </Button>
 
 
-                <Button  Name="startover" Click="startover_Click" Margin="160,924,0,84" BorderThickness="0" HorizontalAlignment="Left" Width="214" Height="72" VerticalAlignment="Stretch" Grid.Column="1" >
+                <Button  Name="startover" Click="startover_Click" Margin="652,921,0,81" BorderThickness="0" HorizontalAlignment="Left" Width="214" Height="72" VerticalAlignment="Stretch" Grid.Column="1" >
                     <Button.Background>
                         <ImageBrush ImageSource="Assets/startover.png"/>
                     </Button.Background>
@@ -46,12 +41,18 @@
             </Grid>
         </k:KinectRegion>
 
-        <TextBlock Name="line1" HorizontalAlignment="Left" Margin="880,119,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="50" Height="126" TextAlignment="Center"><Run Foreground="White" Text="You work for"/><Run Text=" "/><Run Foreground="White" FontFamily="Gotham Bold" Text="PantherlabWorks,"/><Run Text=" "/><Run Foreground="White" Text="the technology startup"/><LineBreak/><Run Foreground="White" Text="program at the "/><Run Foreground="White" FontFamily="Gotham Bold" Text="University of Pittsburgh."/><LineBreak/><Run Foreground="White"/></TextBlock>
-        <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="977,258,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
+        <TextBlock Name="line1" HorizontalAlignment="Left" Margin="870.8,117.2,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="50" Height="126" TextAlignment="Center"><Run Foreground="White" Text="You work for"/><Run Text=" "/><Run Foreground="White" FontFamily="Gotham Bold" Text="PantherlabWorks,"/><Run Text=" "/><Run Foreground="White" Text="the technology startup"/><LineBreak/><Run Foreground="White" Text="program at the "/><Run Foreground="White" FontFamily="Gotham Bold" Text="University of Pittsburgh."/><LineBreak/><Run Foreground="White"/></TextBlock>
+        <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="991,254,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
         <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="992,294,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="34" Height="237" TextAlignment="Center" Width="1119"><Run Foreground="White" Text="A university researcher shows you a new, game-changing "/><LineBreak/><Run Foreground="White" Text="device that measures the "/><Run Foreground="White" FontFamily="Gotham Bold" Text="acceleration"/><Run Foreground="White" Text=" of objects."/></TextBlock>
-        <TextBlock Name="line3" HorizontalAlignment="Left" Margin="1246,432,984,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="39.28" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Do you "/><Run Foreground="White" FontWeight="Bold" FontStyle="Italic" FontFamily="Gotham Medium" Text="bank your future"/><Run Foreground="White" Text=" on it?"/></TextBlock>
+        <TextBlock x:Name="line3" HorizontalAlignment="Left" Margin="1246,432,984,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="39.28" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Do you "/><Run Foreground="White" FontStyle="Italic" Text="bank your future">
+        		<Run.Style>
+        			<Style>
+        				<Setter Property="TextElement.FontFamily" Value="Fonts/#Gotham-MediumItalic"/>
+        			</Style>
+        		</Run.Style>
+        	</Run><Run Foreground="White" Text=" on it?"/></TextBlock>
         <Image Name="man" HorizontalAlignment="Left" Height="791" Margin="603,99,0,0" VerticalAlignment="Top" Width="286" Source="Assets/Man .png"/>
         <TextBlock x:Name="line3_Copy" HorizontalAlignment="Left" Margin="1246,981,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Medium" FontSize="27.43" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Push one button to make your choice!"/></TextBlock>
-
+        
     </Grid>
 </Page>

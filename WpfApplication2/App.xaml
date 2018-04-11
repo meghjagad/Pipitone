@@ -27,5 +27,9 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        
+        <Style x:Key="ItalicFont">
+            <Setter Property="TextElement.FontFamily" Value="Fonts/#Gotham-MediumItalic"></Setter>
+        </Style>
     </Application.Resources>
 </Application>

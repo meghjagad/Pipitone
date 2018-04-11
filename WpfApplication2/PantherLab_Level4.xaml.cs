@@ -27,7 +27,7 @@ namespace WpfApplication2
 
         private void startover_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("PantherLab_level1.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("Start_Screen.xaml", UriKind.Relative));
         }
     }
 }

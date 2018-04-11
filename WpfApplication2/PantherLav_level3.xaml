@@ -43,7 +43,14 @@
 
         <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="766,147.2,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Bold" FontSize="100" Height="126" TextAlignment="Center" Width="1477"><Run Foreground="White" FontSize="50" FontFamily="Gotham Book" Text="You've invented a revolutionary device that"/><LineBreak/><Run Foreground="White" FontSize="50" Text="analyzes baseball swings!"/></TextBlock>
         <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="977,316,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
-        <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="817,364,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="34" Height="225" TextAlignment="Center" Width="1382"><Run Foreground="White" Text="At a networking event, you meet the owner of a major local"/><LineBreak/><Run Foreground="White" Text="sports team, "/><Run Foreground="White" FontStyle="Italic" FontFamily="Gotham Bold" Text="What do you do?"/></TextBlock>
+        <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="817,364,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="34" Height="225" TextAlignment="Center" Width="1382"><Run Foreground="White" Text="At a networking event, you meet the owner of a major local"/><LineBreak/><Run Foreground="White" Text="sports team, "/><Run Foreground="White" FontStyle="Italic" Text="What do you do?">
+        <Run.Style>
+        			<Style>
+        				<Setter Property="TextElement.FontFamily" Value="Fonts/#Gotham-MediumItalic"/>
+        			</Style>
+        		</Run.Style>
+           </Run>
+        </TextBlock>
         <Image HorizontalAlignment="Left" Height="791" Margin="603,99,0,0" VerticalAlignment="Top" Width="286" Source="Assets/Man .png"/>
         <TextBlock x:Name="line3_Copy" HorizontalAlignment="Left" Margin="1246,981,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Medium" FontSize="27.43" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Push one button to make your choice!"/></TextBlock>
 
