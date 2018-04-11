@@ -33,7 +33,7 @@ namespace WpfApplication2
             controls_Clicked = true;
 
             //Load Pantherlab level 2 page
-            this.NavigationService.Navigate(new Uri("PantherLab_level1.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("CompanyFounderProfiles.xaml", UriKind.Relative));
            
         }
 

@@ -1,0 +1,39 @@
+﻿<Page x:Class="WpfApplication2.CompanyFounderProfiles"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:k="http://schemas.microsoft.com/kinect/2014"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="2830 "
+	Title="CompanyFounderProfiles">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Company_Founder_Assets/Founder_bg.png"/>
+        </Grid.Background>
+        <k:KinectRegion  x:Name="kinectRegion">
+            <Grid Margin="-10,0,10,0">
+                <Button Style="{StaticResource ButtonStyle}" Name="Technologist" Click="Technologist_Click" Margin="606,407,1662,87" BorderThickness="0"  Height="571" Width="501">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Company_Founder_Assets/The Technologist.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Style="{StaticResource ButtonStyle}" Name="Idealist" Click="Idealist_Click" Margin="1228,382,1032,98" BorderThickness="0"  Height="600" Width="571">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Company_Founder_Assets/The Idealist.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Style="{StaticResource ButtonStyle}" Name="RiskTaker" Click="RiskTaker_Click" Margin="1783,407,456,94" BorderThickness="0"  Height="572" Width="447">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Company_Founder_Assets/The Risk Taker.png"/>
+                    </Button.Background>
+                </Button>
+            </Grid> 
+        </k:KinectRegion>
+        <TextBlock  Margin="857,143,832,744" TextWrapping="Wrap" Height="193" Foreground="White" FontSize="91.04" FontFamily="/WpfApplication2;component/Fonts/#Gotham Medium" TextAlignment="Center"><Run Text="You're piloting a "/><Run FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="startup."/></TextBlock>
+        <Rectangle Name="rect" Fill="#FFF4F4F5" Height="6" Margin="1138,271,1116,803" Stroke="Black"/>
+        <TextBlock  Margin="1226,302,1197,584" TextWrapping="Wrap" Height="193" Foreground="White" FontSize="58.24" FontFamily="/WpfApplication2;component/Fonts/#Gotham Book" TextAlignment="Center" Text="Who are you?"/>
+
+    </Grid>
+</Page>
