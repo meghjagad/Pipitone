@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="WpfApplication2.PantherLab_level3UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2014"
+             d:DesignHeight="1080" d:DesignWidth="2830">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/risktaker_background.png"/>
+        </Grid.Background>
+
+
+        <k:KinectRegion x:Name="kinectRegion" >
+            <Grid>
+
+                <Button Style="{StaticResource ButtonStyle}" MouseEnter="get_selfie_MouseEnter" MouseLeave="get_selfie_MouseLeave" Name="get_selfie" Click="get_selfie_Click"  Margin="993,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/get_selfie.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Style="{StaticResource ButtonStyle}" MouseEnter="build_a_relationship_MouseEnter" MouseLeave="build_a_relationship_MouseLeave" Name="build_a_relationship" Click="build_a_relationship_Click" Margin="1397,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/build_a_relationsip.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Style="{StaticResource ButtonStyle}" MouseEnter="sell_your_product_MouseEnter" MouseLeave="sell_your_product_MouseLeave" Name="sell_your_product" Click="sell_your_product_Click"  Margin="1801,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/sell_your_product.png"/>
+                    </Button.Background>
+                </Button>
+
+
+                <Button  Name="startover" Click="startover_Click" Margin="652,921,0,81" BorderThickness="0" HorizontalAlignment="Left" Width="214" Height="72" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/startover.png"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </k:KinectRegion>
+
+        <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="766,147.2,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Bold" FontSize="100" Height="126" TextAlignment="Center" Width="1477"><Run Foreground="White" FontSize="50" FontFamily="Gotham Book" Text="You've invented a revolutionary device that"/><LineBreak/><Run Foreground="White" FontSize="50" Text="analyzes baseball swings!"/></TextBlock>
+        <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="977,316,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
+        <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="817,364,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="34" Height="225" TextAlignment="Center" Width="1382"><Run Foreground="White" Text="At a networking event, you meet the owner of a major local"/><LineBreak/><Run Foreground="White" Text="sports team, "/><Run Foreground="White" FontStyle="Italic" Text="What do you do?">
+        <Run.Style>
+        			<Style>
+        				<Setter Property="TextElement.FontFamily" Value="Fonts/#Gotham-MediumItalic"/>
+        			</Style>
+        		</Run.Style>
+           </Run>
+        </TextBlock>
+        <Image Name="man" HorizontalAlignment="Left" Height="799" Margin="591,159,0,0" VerticalAlignment="Top" Width="338" Source="Assets/CJ.png"/>
+        <TextBlock x:Name="line3_Copy" HorizontalAlignment="Left" Margin="1246,981,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Medium" FontSize="27.43" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Push one button to make your choice!"/></TextBlock>
+
+    </Grid>
+</UserControl>

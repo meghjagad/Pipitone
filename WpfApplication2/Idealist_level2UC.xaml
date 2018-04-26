@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="WpfApplication2.Idealist_level2UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2014"
+             d:DesignHeight="1080" d:DesignWidth="2830">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Idealist_Assets/idealist_bg.png"/>
+        </Grid.Background>
+
+        <k:KinectRegion  x:Name="kinectRegion">
+            <Grid>
+                <Button Style="{StaticResource ButtonStyle}" Name="home_office" Click="home_office_Click" MouseEnter="home_office_MouseEnter" MouseLeave="home_office_MouseLeave"  Margin="971,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Idealist_Assets/home_office.png"/>
+                    </Button.Background>
+                </Button>
+                <Button  Style="{StaticResource ButtonStyle}" Name="project_olympus" Click="project_olympus_Click" MouseEnter="project_olympus_MouseEnter" MouseLeave="project_olympus_MouseLeave" Margin="1397,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Idealist_Assets/project_olympus.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Style="{StaticResource ButtonStyle}" Name="private_office_space" Click="private_office_space_Click" MouseEnter="private_office_space_MouseEnter" MouseLeave="private_office_space_MouseLeave" Margin="1801,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Idealist_Assets/private_office_space.png"/>
+                    </Button.Background>
+                </Button>
+                <Button  Name="startover" Click="startover_Click" Margin="652,921,0,81" BorderThickness="0" HorizontalAlignment="Left" Width="229" Height="88" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Idealist_Assets/idealist_startover.png"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </k:KinectRegion>
+        <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="975,183,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="50" Height="126" TextAlignment="Center"><Run Foreground="White" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="Awesome!"/><Run Foreground="White" Text=" Your project is gaining steam and"/><LineBreak/><Run Foreground="White" Text="your team needs a place to work."/></TextBlock>
+        <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="991,353,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
+        <TextBlock x:Name="line2"  HorizontalAlignment="Left" Margin="935,395,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="/WpfApplication2;component/Fonts/#Gotham-BookItalic" FontSize="50" Height="236" TextAlignment="Center" Width="1176" FontStyle="Italic"><Run Foreground="White" Text="Where do you turn?"/></TextBlock>
+        <Image Name="man" HorizontalAlignment="Left" Height="772" Margin="561,147,0,0" VerticalAlignment="Top" Width="332" Source="Idealist_Assets/sanna.png"/>
+        <TextBlock x:Name="line3_Copy" HorizontalAlignment="Left" Margin="1246,981,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Medium" FontSize="27.43" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Push one button to make your choice!"/></TextBlock>
+
+    </Grid>
+</UserControl>

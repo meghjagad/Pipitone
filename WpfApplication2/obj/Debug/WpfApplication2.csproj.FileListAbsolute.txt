@@ -72,3 +72,227 @@ C:\Users\PC\Downloads\WpfApplication2-test1\WpfApplication2\obj\Debug\Technologi
 C:\Users\PC\Downloads\WpfApplication2-test1\WpfApplication2\obj\Debug\Technologist_level2.g.cs
 C:\Users\PC\Downloads\WpfApplication2-test1\WpfApplication2\obj\Debug\Technologist_level3.g.cs
 C:\Users\PC\Downloads\WpfApplication2-test1\WpfApplication2\obj\Debug\Technologist_level4.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.dll
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.xml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\CompanyFounderProfiles.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\MainWindow.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_Level4.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\PantherLav_level3.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Start_Screen.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\App.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\CompanyFounderProfiles.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\MainWindow.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_Level4.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\PantherLav_level3.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Start_Screen.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5.baml
+C:\Users\PC\Desktop\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.dll
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.xml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.csprojResolveAssemblyReference.cache
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\CompanyFounderProfiles.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\MainWindow.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_Level4.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\PantherLav_level3.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Start_Screen.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\App.baml
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\CompanyFounderProfiles.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\MainWindow.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_Level4.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\PantherLav_level3.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Start_Screen.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\meghj\Downloads\Pipitone-master (1)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.csproj.GenerateResource.Cache
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.dll
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.xml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.csprojResolveAssemblyReference.cache
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\CompanyFounderProfiles.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\MainWindow.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_Level4.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\PantherLav_level3.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Start_Screen.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\App.baml
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\CompanyFounderProfiles.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\MainWindow.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_Level4.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\PantherLav_level3.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Start_Screen.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\meghj\Downloads\Pipitone-master (2)\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\CompanyFounderProfiles.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\MainWindow.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_Level4.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLav_level3.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Start_Screen.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\App.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\CompanyFounderProfiles.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\MainWindow.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_Level4.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLav_level3.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Start_Screen.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\WpfApplication2.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.dll
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\bin\Debug\WpfPageTransitions.dll
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\bin\Debug\WpfPageTransitions.pdb
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.xml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\StartScreenUC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\StartScreenUC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\CompanyFoundersProfilesUC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\CompanyFoundersProfilesUC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level1UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level1UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level1UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level3UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level4UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5UC.baml
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level2UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level3UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Idealist_level4UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level2UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level3UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\PantherLab_level4UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level2UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level3UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level4UC.g.cs
+C:\Users\PC\Desktop\Pipitone-master\Pipitone-master\WpfApplication2\obj\Debug\Technologist_level5UC.g.cs

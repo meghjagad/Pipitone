@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="WpfApplication2.PantherLab_level2UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2014"
+             d:DesignHeight="1080" d:DesignWidth="2830">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/risktaker_background.png"/>
+        </Grid.Background>
+
+        <k:KinectRegion x:Name="kinectRegion" >
+            <Grid>
+
+                <Button  Style="{StaticResource ButtonStyle}" MouseEnter="accelerometer_MouseEnter" MouseLeave="accelerometer_MouseLeave" Name="accelerometer" Click="accelerometer_Click" Margin="971,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/accelerometer.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Style="{StaticResource ButtonStyle}" MouseEnter="analyze_baseball_MouseEnter" MouseLeave="analyze_baseball_MouseLeave" Name="analyze_baseball" Click="analyze_baseball_Click" Margin="1397,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/analyze_baseball.png"/>
+                    </Button.Background>
+                </Button>
+                <Button  Style="{StaticResource ButtonStyle}" MouseEnter="fitness_tracker_MouseEnter" MouseLeave="fitness_tracker_MouseLeave" Name="fitness_tracker" Click="fitness_tracker_Click" Margin="1801,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/fitness_tracker.png"/>
+                    </Button.Background>
+                </Button>
+
+
+                <Button  Click="startover_Click" Name="startover" Margin="652,921,0,81" BorderThickness="0" HorizontalAlignment="Left" Width="214" Height="72" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/startover.png"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </k:KinectRegion>
+
+        <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="1368.6,154.2,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Bold" FontSize="100" Height="211" TextAlignment="Center"><Run Foreground="White" Text="Sweet!"/></TextBlock>
+        <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="1060,298,0,0" Stroke="Black" VerticalAlignment="Top" Width="971"/>
+        <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="964,366,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="48" Height="225" TextAlignment="Center" Width="1175"><Run Foreground="White" Text="How should you use the accelerometer?"/></TextBlock>
+        <Image Name="man" HorizontalAlignment="Left" Height="799" Margin="591,159,0,0" VerticalAlignment="Top" Width="338" Source="Assets/CJ.png"/>
+        <TextBlock x:Name="line3_Copy" HorizontalAlignment="Left" Margin="1246,981,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Medium" FontSize="27.43" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Push one button to make your choice!"/></TextBlock>
+
+    </Grid>
+</UserControl>

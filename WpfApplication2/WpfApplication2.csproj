@@ -60,14 +60,44 @@
     <Compile Include="CompanyFounderProfiles.xaml.cs">
       <DependentUpon>CompanyFounderProfiles.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CompanyFoundersProfilesUC.xaml.cs">
+      <DependentUpon>CompanyFoundersProfilesUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Idealist_level1UC.xaml.cs">
+      <DependentUpon>Idealist_level1UC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Idealist_level2.xaml.cs">
       <DependentUpon>Idealist_level2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Idealist_level2UC.xaml.cs">
+      <DependentUpon>Idealist_level2UC.xaml</DependentUpon>
     </Compile>
     <Compile Include="Idealist_level3.xaml.cs">
       <DependentUpon>Idealist_level3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Idealist_level3UC.xaml.cs">
+      <DependentUpon>Idealist_level3UC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Idealist_level4.xaml.cs">
       <DependentUpon>Idealist_level4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Idealist_level4UC.xaml.cs">
+      <DependentUpon>Idealist_level4UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PantherLab_level1UC.xaml.cs">
+      <DependentUpon>PantherLab_level1UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PantherLab_level2UC.xaml.cs">
+      <DependentUpon>PantherLab_level2UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PantherLab_level3UC.xaml.cs">
+      <DependentUpon>PantherLab_level3UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PantherLab_level4UC.xaml.cs">
+      <DependentUpon>PantherLab_level4UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StartScreenUC.xaml.cs">
+      <DependentUpon>StartScreenUC.xaml</DependentUpon>
     </Compile>
     <Compile Include="Start_Screen.xaml.cs">
       <DependentUpon>Start_Screen.xaml</DependentUpon>
@@ -78,16 +108,42 @@
     <Compile Include="Technologist_level1.xaml.cs">
       <DependentUpon>Technologist_level1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Technologist_level1UC.xaml.cs">
+      <DependentUpon>Technologist_level1UC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Technologist_level2.xaml.cs">
       <DependentUpon>Technologist_level2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Technologist_level2UC.xaml.cs">
+      <DependentUpon>Technologist_level2UC.xaml</DependentUpon>
     </Compile>
     <Compile Include="Technologist_level3.xaml.cs">
       <DependentUpon>Technologist_level3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Technologist_level3UC.xaml.cs">
+      <DependentUpon>Technologist_level3UC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Technologist_level4.xaml.cs">
       <DependentUpon>Technologist_level4.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Technologist_level4UC.xaml.cs">
+      <DependentUpon>Technologist_level4UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Technologist_level5.xaml.cs">
+      <DependentUpon>Technologist_level5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Technologist_level5UC.xaml.cs">
+      <DependentUpon>Technologist_level5UC.xaml</DependentUpon>
+    </Compile>
     <Page Include="CompanyFounderProfiles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CompanyFoundersProfilesUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Idealist_level1UC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -95,11 +151,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Idealist_level2UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Idealist_level3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Idealist_level3UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Idealist_level4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Idealist_level4UC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -119,7 +187,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PantherLab_level1UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PantherLab_level2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PantherLab_level2UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PantherLab_level3UC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -127,7 +207,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PantherLab_level4UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PantherLav_level3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StartScreenUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -143,7 +231,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Technologist_level1UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Technologist_level2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Technologist_level2UC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -151,7 +247,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Technologist_level3UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Technologist_level4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Technologist_level4UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Technologist_level5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Technologist_level5UC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -281,6 +393,93 @@
   <ItemGroup>
     <Resource Include="Technologist_Assets\technologist_bg.png" />
     <Resource Include="Technologist_Assets\technologist_startover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Idealist_Assets\be_low_cost%29_pressed.png" />
+    <Resource Include="Idealist_Assets\be_low_cost.png" />
+    <Resource Include="Idealist_Assets\crowdfunding.png" />
+    <Resource Include="Idealist_Assets\crowdfunding_pressed.png" />
+    <Resource Include="Idealist_Assets\do_both.png" />
+    <Resource Include="Idealist_Assets\federal_grant.png" />
+    <Resource Include="Idealist_Assets\federal_grant_pressed.png" />
+    <Resource Include="Idealist_Assets\home_office.png" />
+    <Resource Include="Idealist_Assets\home_office_pressed.png" />
+    <Resource Include="Idealist_Assets\innovation_competitions.png" />
+    <Resource Include="Idealist_Assets\private_office_space.png" />
+    <Resource Include="Idealist_Assets\private_office_space_pressed.png" />
+    <Resource Include="Idealist_Assets\project_olympus.png" />
+    <Resource Include="Idealist_Assets\Woman.png" />
+    <Resource Include="Idealist_Assets\work_on_everyone.png" />
+    <Resource Include="Idealist_Assets\work_on_everyone_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Idealist_Assets\be_low_cost1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Idealist_Assets\work_on_everyone2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Technologist_Assets\anchor_in_pittsburgh.png" />
+    <Resource Include="Technologist_Assets\babysitting_is_expensive.png" />
+    <Resource Include="Technologist_Assets\babysitting_is_expensive_pressed.png" />
+    <Resource Include="Technologist_Assets\consider_moving.png" />
+    <Resource Include="Technologist_Assets\consider_moving_pressed.png" />
+    <Resource Include="Technologist_Assets\door_to_door.png" />
+    <Resource Include="Technologist_Assets\door_to_door_pressed.png" />
+    <Resource Include="Technologist_Assets\lets_give_it_a_shot.png" />
+    <Resource Include="Technologist_Assets\leverage_corporate_partner.png" />
+    <Resource Include="Technologist_Assets\man.png" />
+    <Resource Include="Technologist_Assets\monitoring_infants.png" />
+    <Resource Include="Technologist_Assets\monitoring_infants_pressed.png" />
+    <Resource Include="Technologist_Assets\no_thanks.png" />
+    <Resource Include="Technologist_Assets\no_thanks_pressed.png" />
+    <Resource Include="Technologist_Assets\robot_babysitter.png" />
+    <Resource Include="Technologist_Assets\robot_babysitter_pressed.png" />
+    <Resource Include="Technologist_Assets\rock_a_bye_baby.png" />
+    <Resource Include="Technologist_Assets\stay_independent.png" />
+    <Resource Include="Technologist_Assets\stay_independent_pressed.png" />
+    <Resource Include="Technologist_Assets\thats_not_my_area.png" />
+    <Resource Include="Technologist_Assets\thats_not_my_area_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Idealist_Assets\be_low_cost_scaled.png" />
+    <Resource Include="Idealist_Assets\crowdfunding_scaled.png" />
+    <Resource Include="Idealist_Assets\do_both_scaled.png" />
+    <Resource Include="Idealist_Assets\federal_grant_scaled.png" />
+    <Resource Include="Idealist_Assets\home_office_scaled.png" />
+    <Resource Include="Idealist_Assets\innovation_competitions_scaled.png" />
+    <Resource Include="Idealist_Assets\private_office_space_scaled.png" />
+    <Resource Include="Idealist_Assets\project_olympus_scaled.png" />
+    <Resource Include="Idealist_Assets\work_on_everyone_scaled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Technologist_Assets\anchor_in_pittsburgh_scaled.png" />
+    <Resource Include="Technologist_Assets\babysitting_is_expensive_scaled.png" />
+    <Resource Include="Technologist_Assets\consider_moving_scaled.png" />
+    <Resource Include="Technologist_Assets\door_to_door_scaled.png" />
+    <Resource Include="Technologist_Assets\lets_give_it_a_shot_scaled.png" />
+    <Resource Include="Technologist_Assets\leverage_corporate_partner_scaled.png" />
+    <Resource Include="Technologist_Assets\monitoring_infants_scaled.png" />
+    <Resource Include="Technologist_Assets\no_thanks_scaled.png" />
+    <Resource Include="Technologist_Assets\robot_babysitter_scaled.png" />
+    <Resource Include="Technologist_Assets\rock_a_bye_baby_scaled.png" />
+    <Resource Include="Technologist_Assets\stay_independent_scaled.png" />
+    <Resource Include="Technologist_Assets\thats_not_my_area_scaled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Idealist_Assets\sanna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\CJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Technologist_Assets\henry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Downloads\PageTransitionsDemo\WpfPageTransitions\WpfPageTransitions.csproj">
+      <Project>{22a46d61-1d40-43a9-802c-b9d43dadd9ec}</Project>
+      <Name>WpfPageTransitions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

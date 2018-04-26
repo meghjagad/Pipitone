@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Drawing;
+using WpfPageTransitions;
 namespace WpfApplication2
 {
     /// <summary>
@@ -22,6 +23,11 @@ namespace WpfApplication2
     /// </summary>
     public partial class MainWindow : Window
     {
+        public void ShowPage(UserControl newPage)
+        {
+            if (newPage != null)
+                pageTransitionControl.ShowPage(newPage);
+        }
         public MainWindow()
         {
             InitializeComponent();
@@ -46,16 +52,20 @@ namespace WpfApplication2
             if (isEngaged)
             {
 
-                System.Drawing.Point mousePt = new System.Drawing.Point((int)(kinectPointerPoint.Position.X * kinectRegion.ActualWidth -80), (int)(kinectPointerPoint.Position.Y * kinectRegion.ActualHeight));
+                System.Drawing.Point mousePt = new System.Drawing.Point((int)(kinectPointerPoint.Position.X * kinectRegion.ActualWidth+390), (int)(kinectPointerPoint.Position.Y * kinectRegion.ActualHeight));
                 System.Windows.Forms.Cursor.Position = mousePt;
+                     
             }
+            this.Cursor = Cursors.None;   
         }
       
         //Start the application
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             startover.Visibility = Visibility.Collapsed;
-            _NavigationFrame.Navigate(new Start_Screen());
+            ((MainWindow)App.Current.MainWindow).ShowPage(new StartScreenUC());
+
+         // _NavigationFrame.Navigate(new Start_Screen());
          
         }
 

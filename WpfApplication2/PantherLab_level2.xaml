@@ -44,7 +44,7 @@
         <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="1368.6,154.2,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Bold" FontSize="100" Height="211" TextAlignment="Center"><Run Foreground="White" Text="Sweet!"/></TextBlock>
         <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="1060,298,0,0" Stroke="Black" VerticalAlignment="Top" Width="971"/>
         <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="964,366,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="48" Height="225" TextAlignment="Center" Width="1175"><Run Foreground="White" Text="How should you use the accelerometer?"/></TextBlock>
-        <Image Name="man" HorizontalAlignment="Left" Height="791" Margin="603,99,0,0" VerticalAlignment="Top" Width="286" Source="Assets/Man .png"/>
+        <Image Name="man" HorizontalAlignment="Left" Height="799" Margin="591,159,0,0" VerticalAlignment="Top" Width="338" Source="Assets/CJ.png"/>
         <TextBlock x:Name="line3_Copy" HorizontalAlignment="Left" Margin="1246,981,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Medium" FontSize="27.43" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Push one button to make your choice!"/></TextBlock>
 
     </Grid>

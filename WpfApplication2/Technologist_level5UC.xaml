@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="WpfApplication2.Technologist_level5UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2014"
+             d:DesignHeight="1080" d:DesignWidth="2830">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Technologist_Assets/technologist_bg.png"/>
+        </Grid.Background>
+        <k:KinectRegion  x:Name="kinectRegion">
+            <Grid>
+                <Button  Name="startover" Click="startover_Click"  Margin="1438,927,0,68" BorderThickness="0" HorizontalAlignment="Left" Width="229" VerticalAlignment="Stretch" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Technologist_Assets/technologist_startover.png"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </k:KinectRegion>
+        <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="1315,139,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" FontSize="50" Height="126" TextAlignment="Center"><Run Foreground="White" FontSize="55" Text="Congratulations"/><Run Foreground="White" Text="!"/></TextBlock>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="897,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="1310"/>
+        <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="897,278,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="55" Height="226" TextAlignment="Center" Width="1310"><Run Foreground="White" Text="Pittsburgh's talent base and resources continue"/><LineBreak/><Run Foreground="White" Text="to fuel your startup's growth."/></TextBlock>
+        <TextBlock x:Name="line3" HorizontalAlignment="Left" Margin="861,496,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="30" Height="402" TextAlignment="Center" Width="1364" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.368"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-1.494"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Foreground="White" Text="You've successfully navigated the path of "/><Run Foreground="White" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="4moms."/><LineBreak/><Run Foreground="White"/><LineBreak/><Run Foreground="White" Text="While great parenting can't be automated, 4moms is making it considerably easier."/><LineBreak/><Run Foreground="White" Text="High-tech baby gear was once a motionless category, but thanks to 4moms, we "/><LineBreak/><Run Foreground="White" Text="finally have innovative baby gear that leverages robotic technology to help make"/><LineBreak/><Run Foreground="White" Text="parenting a little bit easier."/><LineBreak/><Run Foreground="White"/><LineBreak/><Run Foreground="White" Text="Use the screen behind you to learn more about 4moms"/><LineBreak/><Run Foreground="White" Text="and other Pittsburgh startups!"/><LineBreak/><Run Foreground="White"/><LineBreak/><Run Foreground="White" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="Or, try a new route."/></TextBlock>
+        <Image Name="man" HorizontalAlignment="Left" Height="917" Margin="579,153,0,0" VerticalAlignment="Top" Width="343" Source="Technologist_Assets/Henry.png"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="897,442,0,0" Stroke="Black" VerticalAlignment="Top" Width="1310"/>
+
+    </Grid>
+</UserControl>

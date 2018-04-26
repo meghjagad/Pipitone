@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="WpfApplication2.PantherLab_level4UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2014"
+             d:DesignHeight="1080" d:DesignWidth="2830">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/risktaker_background.png"/>
+        </Grid.Background>
+
+        <k:KinectRegion x:Name="kinectRegion">
+            <Grid>
+
+
+                <Button Name="startover" Click="startover_Click" Margin="1410,914,0,94" BorderThickness="0" HorizontalAlignment="Left" Width="214" Height="72" VerticalAlignment="Stretch" RenderTransformOrigin="3.991,-2" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Assets/startover.png"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </k:KinectRegion>
+
+        <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="1303,127,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" FontSize="50" Height="126" TextAlignment="Center"><Run Foreground="White" Text="Congratulations!"/></TextBlock>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="977,258,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
+        <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="913,306,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="34" Height="225" TextAlignment="Center" Width="1235"><Run Foreground="White" Text="Your new contact contributed to your startup and connected you with mentors and investors. Meanwhile, institutions like Innovation Works, in addition to providing upfront funding, also help you build relationships and connect you with other sources of capital."/></TextBlock>
+        <TextBlock x:Name="line3" HorizontalAlignment="Left" Margin="840,536,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="30" Height="348" TextAlignment="Center" Width="1364" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.368"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-1.494"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Foreground="White" Text="You've successfully navigated the path of "/><Run Foreground="White" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="Diamond Kinetics."/><LineBreak/><LineBreak/><Run Foreground="White" Text="Tracking a swing used to be impossible. Now, Diamond Kinetics works with 18 Major "/><LineBreak/><Run Foreground="White" Text="League Baseball teams-and in 2018, they expanded to introduce PitchTracker."/><LineBreak/><Run Foreground="White"/><LineBreak/><Run Foreground="White" Text="Use the screen behind you to learn more about Diamond Kinetics "/><LineBreak/><Run Foreground="White" Text="and other Pittsburgh startups!"/><LineBreak/><Run Foreground="White"/><LineBreak/><Run Foreground="White" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="Or try a new route."/></TextBlock>
+        <Image Name="man" HorizontalAlignment="Left" Height="799" Margin="591,159,0,0" VerticalAlignment="Top" Width="338" Source="Assets/CJ.png"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="977,504,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
+
+    </Grid>
+</UserControl>

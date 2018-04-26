@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="WpfApplication2.Technologist_level1UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+                 xmlns:k="http://schemas.microsoft.com/kinect/2014"
+             d:DesignHeight="1080" d:DesignWidth="2830">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Technologist_Assets/technologist_bg.png"/>
+        </Grid.Background>
+        <k:KinectRegion  x:Name="kinectRegion">
+            <Grid>
+                <Button Style="{StaticResource ButtonStyle}" Name="no_thanks" Click="no_thanks_Click" MouseEnter="no_thanks_MouseEnter" MouseLeave="no_thanks_MouseLeave"  Margin="971,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Technologist_Assets/no_thanks.png"/>
+                    </Button.Background>
+                </Button>
+                <Button  Style="{StaticResource ButtonStyle}"  Name="thats_not_my_area" Click="thats_not_my_area_Click" MouseEnter="thats_not_my_area_MouseEnter" MouseLeave="thats_not_my_area_MouseLeave"  Margin="1397,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Technologist_Assets/thats_not_my_area.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Style="{StaticResource ButtonStyle}"  Name="lets_give_it_a_shot" Click="lets_give_it_a_shot_Click" MouseEnter="lets_give_it_a_shot_MouseEnter" MouseLeave="lets_give_it_a_shot_MouseLeave"  Margin="1801,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Technologist_Assets/lets_give_it_a_shot.png"/>
+                    </Button.Background>
+                </Button>
+                <Button  Name="startover" Click="startover_Click" Margin="652,921,0,81" BorderThickness="0" HorizontalAlignment="Left" Width="214" Height="72" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Technologist_Assets/technologist_startover.png"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </k:KinectRegion>
+        <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="870.8,117.2,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="50" Height="126" TextAlignment="Center"><Run Foreground="White" Text="You're a "/><Run Foreground="White" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="robotics expert"/><Run Foreground="White" Text=" showcasing a new product for"/><LineBreak/><Run Foreground="White" Text="the elderly at the Pittsburgh Home &amp; Garden Show."/></TextBlock>
+        <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="991,254,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
+        <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="966,298,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="34" Height="92" TextAlignment="Center" Width="1217"><Run Foreground="White" Text="Parents at the show remark that leveraging innovative technologies and"/><LineBreak/><Run Foreground="White" Text="affordable electronics could actually transform the baby gear industry."/></TextBlock>
+        <TextBlock x:Name="line3" HorizontalAlignment="Left" Margin="991,411,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="39.28" Height="99" TextAlignment="Center" Width="1192"><Run Foreground="White" Text="Do you switch to the "/><Run Foreground="White" FontStyle="Italic" FontFamily="/WpfApplication2;component/Fonts/#Gotham-BoldItalic" Text="intent and toddler"/><Run Foreground="White" Text=" market?"/></TextBlock>
+        <Image Name="man" HorizontalAlignment="Left" Height="917" Margin="579,153,0,0" VerticalAlignment="Top" Width="343" Source="Technologist_Assets/Henry.png"/>
+        <TextBlock x:Name="line3_Copy" HorizontalAlignment="Left" Margin="1246,981,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Medium" FontSize="27.43" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Push one button to make your choice!"/></TextBlock>
+
+    </Grid>
+</UserControl>

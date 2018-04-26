@@ -38,7 +38,7 @@
                     <TranslateTransform X="-1.494"/>
                 </TransformGroup>
             </TextBlock.RenderTransform><Run Foreground="White" Text="You've successfully navigated the path of "/><Run Foreground="White" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="Diamond Kinetics."/><LineBreak/><LineBreak/><Run Foreground="White" Text="Tracking a swing used to be impossible. Now, Diamond Kinetics works with 18 Major "/><LineBreak/><Run Foreground="White" Text="League Baseball teams-and in 2018, they expanded to introduce PitchTracker."/><LineBreak/><Run Foreground="White"/><LineBreak/><Run Foreground="White" Text="Use the screen behind you to learn more about Diamond Kinetics "/><LineBreak/><Run Foreground="White" Text="and other Pittsburgh startups!"/><LineBreak/><Run Foreground="White"/><LineBreak/><Run Foreground="White" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="Or try a new route."/></TextBlock>
-        <Image Name="man" HorizontalAlignment="Left" Height="791" Margin="603,99,0,0" VerticalAlignment="Top" Width="286" Source="Assets/Man .png"/>
+        <Image Name="man" HorizontalAlignment="Left" Height="799" Margin="591,159,0,0" VerticalAlignment="Top" Width="338" Source="Assets/CJ.png"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="977,504,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
 
     </Grid>

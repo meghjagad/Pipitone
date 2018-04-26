@@ -15,12 +15,34 @@
         </Grid.Background>
         <k:KinectRegion  x:Name="kinectRegion">
             <Grid>
+                <Button Style="{StaticResource ButtonStyle}" Name="rock_a_bye_baby" Click="rock_a_bye_baby_Click" MouseEnter="rock_a_bye_baby_MouseEnter" MouseLeave="rock_a_bye_baby_MouseLeave" Margin="971,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Technologist_Assets/rock_a_bye_baby.png"/>
+                    </Button.Background>
+                </Button>
+                <Button  Style="{StaticResource ButtonStyle}" Name="monitoring_infants" Click="monitoring_infants_Click" MouseEnter="monitoring_infants_MouseEnter" MouseLeave="monitoring_infants_MouseLeave" Margin="1397,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Technologist_Assets/monitoring_infants.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Style="{StaticResource ButtonStyle}" Name="babysitting_is_expensive" Click="babysitting_is_expensive_Click" MouseEnter="babysitting_is_expensive_MouseEnter" MouseLeave="babysitting_is_expensive_MouseLeave" Margin="1801,524,0,156" BorderThickness="0" HorizontalAlignment="Left" Width="294" VerticalAlignment="Stretch" Grid.Column="1" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Technologist_Assets/babysitting_is_expensive.png"/>
+                    </Button.Background>
+                </Button>
                 <Button  Name="startover" Click="startover_Click" Margin="652,921,0,81" BorderThickness="0" HorizontalAlignment="Left" Width="214" Height="72" VerticalAlignment="Stretch" Grid.Column="1" >
                     <Button.Background>
                         <ImageBrush ImageSource="Technologist_Assets/technologist_startover.png"/>
                     </Button.Background>
                 </Button>
             </Grid>
-        </k:KinectRegion> 
+        </k:KinectRegion>
+        <TextBlock x:Name="line1" HorizontalAlignment="Left" Margin="1404,123,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" FontSize="72" Height="126" TextAlignment="Center"><Run Foreground="White" Text="Sweet!"/></TextBlock>
+        <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="991,254,0,0" Stroke="Black" VerticalAlignment="Top" Width="1084"/>
+        <TextBlock x:Name="line2" HorizontalAlignment="Left" Margin="920,294,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="38" Height="237" TextAlignment="Center" Width="1230"><Run Foreground="White" Text="You decide to "/><Run Foreground="White" FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="use your robotics background"/><Run Foreground="White" Text=" to improve"/><LineBreak/><Run Foreground="White" Text="on parenting products with new innovative features."/></TextBlock>
+        <TextBlock x:Name="line3" HorizontalAlignment="Left" Margin="1180,426,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Book" FontSize="36" Height="99" TextAlignment="Center" Width="721"><Run Foreground="White" Text="What problem do you want to solve?"/></TextBlock>
+        <Image Name="man" HorizontalAlignment="Left" Height="917" Margin="579,153,0,0" VerticalAlignment="Top" Width="343" Source="Technologist_Assets/Henry.png"/>
+        <TextBlock x:Name="line3_Copy" HorizontalAlignment="Left" Margin="1246,981,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Gotham Medium" FontSize="27.43" Height="99" TextAlignment="Center" Width="605"><Run Foreground="White" Text="Push one button to make your choice!"/></TextBlock>
+
     </Grid>
 </Page>

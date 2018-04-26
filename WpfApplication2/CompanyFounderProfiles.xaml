@@ -14,22 +14,22 @@
         </Grid.Background>
         <k:KinectRegion  x:Name="kinectRegion">
             <Grid Margin="-10,0,10,0">
-                <Button Style="{StaticResource ButtonStyle}" Name="Technologist" Click="Technologist_Click" Margin="606,407,1662,87" BorderThickness="0"  Height="571" Width="501">
+                <Button Style="{StaticResource ButtonStyle}" Name="Technologist" Click="Technologist_Click" Margin="581,420,1757,5"  BorderThickness="0" Width="492" Height="655">
                     <Button.Background>
                         <ImageBrush ImageSource="Company_Founder_Assets/The Technologist.png"/>
                     </Button.Background>
                 </Button>
-                <Button Style="{StaticResource ButtonStyle}" Name="Idealist" Click="Idealist_Click" Margin="1228,382,1032,98" BorderThickness="0"  Height="600" Width="571">
+                <Button Style="{StaticResource ButtonStyle}" Name="Idealist" Click="Idealist_Click" Margin="1154,397,1126,14" BorderThickness="0"  Width="550" Height="669">
                     <Button.Background>
                         <ImageBrush ImageSource="Company_Founder_Assets/The Idealist.png"/>
                     </Button.Background>
                 </Button>
-                <Button Style="{StaticResource ButtonStyle}" Name="RiskTaker" Click="RiskTaker_Click" Margin="1783,407,456,94" BorderThickness="0"  Height="572" Width="447">
+                <Button Style="{StaticResource ButtonStyle}" Name="RiskTaker" Click="RiskTaker_Click" Margin="1770,416,593,61" BorderThickness="0"  Width="467" Height="603">
                     <Button.Background>
                         <ImageBrush ImageSource="Company_Founder_Assets/The Risk Taker.png"/>
                     </Button.Background>
                 </Button>
-            </Grid> 
+            </Grid>
         </k:KinectRegion>
         <TextBlock  Margin="857,143,832,744" TextWrapping="Wrap" Height="193" Foreground="White" FontSize="91.04" FontFamily="/WpfApplication2;component/Fonts/#Gotham Medium" TextAlignment="Center"><Run Text="You're piloting a "/><Run FontFamily="/WpfApplication2;component/Fonts/#Gotham Bold" Text="startup."/></TextBlock>
         <Rectangle Name="rect" Fill="#FFF4F4F5" Height="6" Margin="1138,271,1116,803" Stroke="Black"/>
